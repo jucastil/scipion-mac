@@ -1,0 +1,2 @@
+2020/06/10 10:42:24 socat killed
+2020/06/10 10:42:25 socat started
