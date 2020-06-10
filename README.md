@@ -4,8 +4,6 @@ A script to install a CentOS 7 docker with scipion. Including:
 
 - CentOS 7 Docker Container , Apache 2.4 (w/ SSL), MariaDB 10.1
 - PHP **5.6**, EXIM, ssh, phpMyAdmin, Git, Drush, NodeJS
-- Amira license server
-- Amira 5.5.0
 
 We start with a clean OSX 10.15.3 (Catalina). 
 To download docker for mac, follow the instructions (https://docs.docker.com/docker-for-mac/install/)
@@ -28,7 +26,7 @@ Please do not send telemetry :-)
 
     Run ./start-X11-forwarding.sh, then
   
-    docker exec -t scipion scipion/scipion
+    docker exec -it scipion scipion/scipion
 ```
 - Do as suggested, run the script (you can answer N to the Xeyes).  
 You should see the scipion window popping up.
